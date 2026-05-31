@@ -1,0 +1,6 @@
+{
+  "name": "Bug Environment Parser & Replicator",
+  "description": "An interactive dashboard that parses GitHub bug reports using Gemini, generates Docker or Vagrant environment blueprints, and simulates reproducing bugs in ephemeral virtual machines.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
