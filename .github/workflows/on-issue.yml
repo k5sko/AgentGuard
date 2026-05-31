@@ -1,0 +1,22 @@
+name: AgentGuard on new issue
+
+# Runs in GitHub's own runners whenever an issue is opened — no server needed.
+on:
+  issues:
+    types: [opened]
+
+# Grant the automatic GITHUB_TOKEN permission to comment and label.
+permissions:
+  issues: write
+
+jobs:
+  react:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: React to the new issue
+        env:
+          # GitHub injects this token automatically; it's scoped to this repo.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: python3 scripts/on_issue.py
