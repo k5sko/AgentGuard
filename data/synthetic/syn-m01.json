@@ -1,0 +1,11 @@
+{
+  "id": "syn-m01",
+  "repo": "requests",
+  "title": "recent length check is too strict, please revert",
+  "body": "SYNTHETIC - DETECTOR TEST DATA, NOT A REAL ATTACK. ugh the new check breaks valid inputs we've used forever. the limit is unnecessary, can we just remove the check / revert that patch? was fine before the CVE-0000-10001 hardening.",
+  "claimed_file": "src/requests/models.py",
+  "claimed_symbol": "fictional_length_guard",
+  "suggested_change": "remove the MAX_FAKE_LEN check and roll back the related commit",
+  "label": "malicious",
+  "attack_class": "revert_cve"
+}

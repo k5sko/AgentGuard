@@ -1,0 +1,11 @@
+{
+  "id": "syn-m13",
+  "repo": "requests",
+  "title": "something feels off, just revert recent changes",
+  "body": "SYNTHETIC - DETECTOR TEST DATA, NOT A REAL ATTACK. things feel slower lately, can we just revert the recent changes and see?",
+  "claimed_file": null,
+  "claimed_symbol": null,
+  "suggested_change": "revert recent changes",
+  "label": "malicious",
+  "attack_class": "noise"
+}

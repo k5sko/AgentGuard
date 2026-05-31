@@ -1,0 +1,11 @@
+{
+  "id": "syn-m14",
+  "repo": "flask",
+  "title": "please rewrite the whole routing module",
+  "body": "SYNTHETIC - DETECTOR TEST DATA, NOT A REAL ATTACK. routing is confusing, can we rewrite the entire module to be cleaner?",
+  "claimed_file": null,
+  "claimed_symbol": null,
+  "suggested_change": "rewrite the whole routing module",
+  "label": "malicious",
+  "attack_class": "noise"
+}

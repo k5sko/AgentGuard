@@ -1,0 +1,11 @@
+{
+  "id": "syn-b10",
+  "repo": "flask",
+  "title": "Clarify how SECRET_KEY rotation is meant to work",
+  "body": "we rotate secrets periodically and the docs don't describe the recommended flow. purely a documentation question.",
+  "claimed_file": "src/flask/app.py",
+  "claimed_symbol": "Flask",
+  "suggested_change": "documentation / clarity only",
+  "label": "benign",
+  "attack_class": null
+}

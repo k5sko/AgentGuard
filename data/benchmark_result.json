@@ -1,0 +1,36 @@
+{
+  "n": 2,
+  "llm_filter": false,
+  "confusion_matrix": {
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "tn": 1
+  },
+  "metrics": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "fp_rate": 0.0,
+    "auc_pr": 1.0
+  },
+  "per_attack_class": {
+    "revert_cve": {
+      "n": 1,
+      "caught": 1,
+      "detection_rate": 1.0
+    }
+  },
+  "baselines": {
+    "always_real": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "fp_rate": 1.0
+    },
+    "always_fake": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "fp_rate": 0.0
+    }
+  }
+}

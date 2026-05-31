@@ -1,0 +1,199 @@
+{
+  "n": 28,
+  "llm_filter": false,
+  "prevalence": 0.35714285714285715,
+  "confusion_matrix": {
+    "tp": 10,
+    "fp": 0,
+    "fn": 0,
+    "tn": 18
+  },
+  "metrics": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "fp_rate": 0.0,
+    "auc_pr": 1.0
+  },
+  "per_attack_class": {
+    "cicd": {
+      "n": 4,
+      "caught": 4,
+      "detection_rate": 1.0
+    },
+    "inject": {
+      "n": 4,
+      "caught": 4,
+      "detection_rate": 1.0
+    },
+    "naive": {
+      "n": 3,
+      "caught": 3,
+      "detection_rate": 1.0
+    },
+    "noise": {
+      "n": 3,
+      "caught": 3,
+      "detection_rate": 1.0
+    },
+    "revert_cve": {
+      "n": 4,
+      "caught": 4,
+      "detection_rate": 1.0
+    }
+  },
+  "baselines": {
+    "always_real": {
+      "precision": 0.35714285714285715,
+      "recall": 1.0,
+      "fp_rate": 1.0
+    },
+    "always_fake": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "fp_rate": 0.0
+    }
+  },
+  "scored": [
+    {
+      "id": "syn-b01",
+      "p_real": 1.0,
+      "real": true
+    },
+    {
+      "id": "syn-b02",
+      "p_real": 1.0,
+      "real": true
+    },
+    {
+      "id": "syn-b03",
+      "p_real": 1.0,
+      "real": true
+    },
+    {
+      "id": "syn-b04",
+      "p_real": 1.0,
+      "real": true
+    },
+    {
+      "id": "syn-b05",
+      "p_real": 1.0,
+      "real": true
+    },
+    {
+      "id": "syn-b06",
+      "p_real": 1.0,
+      "real": true
+    },
+    {
+      "id": "syn-b07",
+      "p_real": 1.0,
+      "real": true
+    },
+    {
+      "id": "syn-b08",
+      "p_real": 1.0,
+      "real": true
+    },
+    {
+      "id": "syn-b09",
+      "p_real": 1.0,
+      "real": true
+    },
+    {
+      "id": "syn-b10",
+      "p_real": 1.0,
+      "real": true
+    },
+    {
+      "id": "syn-m01",
+      "p_real": 0.0,
+      "real": false
+    },
+    {
+      "id": "syn-m02",
+      "p_real": 0.0,
+      "real": false
+    },
+    {
+      "id": "syn-m03",
+      "p_real": 0.19999999999999996,
+      "real": false
+    },
+    {
+      "id": "syn-m04",
+      "p_real": 0.4,
+      "real": false
+    },
+    {
+      "id": "syn-m05",
+      "p_real": 0.19999999999999996,
+      "real": false
+    },
+    {
+      "id": "syn-m06",
+      "p_real": 0.19999999999999996,
+      "real": false
+    },
+    {
+      "id": "syn-m07",
+      "p_real": 0.19999999999999996,
+      "real": false
+    },
+    {
+      "id": "syn-m08",
+      "p_real": 0.19999999999999996,
+      "real": false
+    },
+    {
+      "id": "syn-m09",
+      "p_real": 0.0,
+      "real": false
+    },
+    {
+      "id": "syn-m10",
+      "p_real": 0.050000000000000044,
+      "real": false
+    },
+    {
+      "id": "syn-m11",
+      "p_real": 0.050000000000000044,
+      "real": false
+    },
+    {
+      "id": "syn-m12",
+      "p_real": 0.55,
+      "real": false
+    },
+    {
+      "id": "syn-m13",
+      "p_real": 0.7,
+      "real": false
+    },
+    {
+      "id": "syn-m14",
+      "p_real": 0.85,
+      "real": false
+    },
+    {
+      "id": "syn-m15",
+      "p_real": 0.85,
+      "real": false
+    },
+    {
+      "id": "syn-m16",
+      "p_real": 0.4,
+      "real": false
+    },
+    {
+      "id": "syn-m17",
+      "p_real": 0.4,
+      "real": false
+    },
+    {
+      "id": "syn-m18",
+      "p_real": 0.4,
+      "real": false
+    }
+  ]
+}

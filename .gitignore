@@ -1,0 +1,7 @@
+# Locally cloned third-party repos used as bug-report test targets.
+# These are read-only copies; never commit them and never push to their origins.
+repos/
+
+# Python bytecode cache (auto-generated, version/OS-specific).
+__pycache__/
+*.pyc
